@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+	</head>
+	<body>
+		<form id='employeeinformation' method='post'>
+			<h2>Employee Information</h2>
+			<label for='employeename'>Employee Name First, Last:</label>
+			<input type='text' id='employeename' name='employeename'/>
+			<label for='employeenumber'>Employee Number:</label>
+			<input type='text' id='employeenumber' name='employeenumber'/>
+			<label for='employeejobtitle'>Job Title:</label>
+			<input type='text' id='employeejobtitle' name='employeejobtitle'/>
+			<label for'employeeyearlySalary'>Yearly Salary:</label>
+			<input type='text' id='employeeyearlysalary' name='employeeyearlysalary'/>
+			<input type='submit' value='Enter'/>
+		</form>
+		<form id='removeemployee'>
+			<label for='deletedemployee'>Delete Employee</label>
+			<input type='text' id='employee' name='deletedemployee'/>
+			<input type='submit' value='Delete'/>
+		</form>
+
+		<div id='employeeContainer'></div>
+			<p></p>
+	</body>
+
+</html>
